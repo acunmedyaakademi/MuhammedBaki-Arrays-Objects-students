@@ -1,0 +1,91 @@
+@font-face {
+  font-family: spacegrotesk;
+  src: url("../fonts/SpaceGrotesk-Regular.ttf");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: spacegrotesk;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-image: linear-gradient(135deg, rgba(107, 107, 107,0.06) 0%, rgba(107, 107, 107,0.06) 50%,rgba(202, 202, 202,0.06) 50%, rgba(202, 202, 202,0.06) 100%),linear-gradient(90deg, rgb(2,3,16),rgb(2,3,16)); background-size: 30px 30px;}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+input:focus {
+  outline: 1px solid #610595;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+.container {
+  width: 1280px;
+  display: flex;
+  gap: 20px;
+  margin: 40px;
+}
+
+p {
+  width: 150px;
+  border-radius: 20px;
+  background-color: bisque;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.kız-students {
+  border-radius: 20px;
+  background-color: bisque;
+  padding: 10px;
+}
+.kız-students li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.erkek-students {
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 20px;
+}
+.erkek-students li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
